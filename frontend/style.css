@@ -1,12 +1,23 @@
 .btn {
-    border-color: #457B9D;
-    color: white
+    border-color: #457b9d;
+    color: white;
 }
 
 .btn:hover {
-    background-color: #457B9D;
+    background-color: #457b9d;
 }
 
 .loggo {
-    margin-right: 3%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.nav-border {
+    padding-right: 1%;
+    border-right: solid 2px gray;
+    min-width: 112.93px;
+}
+
+.nav-links {
+    font-size: 15px;
 }
