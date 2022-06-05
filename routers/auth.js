@@ -5,7 +5,7 @@ const User = require("../models/userSchema");
 router.get("/users", async (req, res) => {
     try {
         const user = await User.find();
-        res.json(user);
+        res.status(200).json(user);
     } catch (err) {
         res.send("Error");
         console.log(err);
@@ -13,7 +13,7 @@ router.get("/users", async (req, res) => {
 });
 
 router.get("/signup", async (req, res) => {
-    res.send("Signup page");
+    res.status(200).send("Signup page");
     console.log("User hit the signup page");
 });
 
@@ -29,17 +29,17 @@ router.post("/signup", async (req, res) => {
 
         try {
             await user.save();
-            res.send("Signup succesful!");
+            res.status(200).send("Signup succesful!");
         } catch (err) {
             console.log(err);
         }
     } else {
-        res.send("Passwords do not match");
+        res.status(200).send("Passwords do not match");
     }
 });
 
 router.get("/login", async (req, res) => {
-    res.send("Login page");
+    res.status(200).send("Login page");
     console.log("User hit the login page");
 });
 
@@ -50,9 +50,9 @@ router.post("/login", async (req, res) => {
                 console.log(error);
             }
             if (req.body.password === data.password) {
-                res.send("Successfully logged in!");
+                res.status(200).send("Successfully logged in!");
             } else {
-                res.send("Incorrect credentials");
+                res.status(200).send("Incorrect credentials");
             }
         }).clone();
     } catch (err) {

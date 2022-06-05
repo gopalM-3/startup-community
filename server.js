@@ -19,9 +19,16 @@ process.on("SIGINT", async () => {
 
 const app = express();
 
+app.get("/app", (req, res) => {
+    res.status(200).sendFile(
+        "E:/IWT/Assignment 1/startup-community/frontend/home.html"
+    );
+});
+
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 app.use("/app", authRouters);
+// app.use("/startup-community/frontend", express.static(__dirname + "/frontend"));
 
 app.listen(5000, () => {
     console.log("Server running at port 5000...");
