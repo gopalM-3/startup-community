@@ -1,0 +1,12 @@
+.btn {
+    border-color: #457B9D;
+    color: white
+}
+
+.btn:hover {
+    background-color: #457B9D;
+}
+
+.loggo {
+    margin-right: 3%;
+}
