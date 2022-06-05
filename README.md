@@ -1,1 +1,3 @@
 # startup-community
+web application for Startup community
+Here you can list your startuo, find news on startup innovaitons and latest technologies, exchange information, techincal Q&A using forms and more...
