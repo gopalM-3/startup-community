@@ -23,8 +23,8 @@
 }
 
 /*footer*/
-footer{
-    box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.2);
+footer {
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.2);
     background-color: white;
     text-align: center;
     align-items: center;
@@ -33,52 +33,63 @@ footer{
     color: darkblue;
     font-size: 30px;
 }
-footer p{
+
+footer p {
     color: darkblue;
     font-size: 20px;
 }
-footer h2{
+
+footer h2 {
     font-size: 50px;
     color: black;
     padding: 50px;
 }
-footer .pages{
+
+footer .pages {
     padding: 10px;
 }
-footer .pages a{
+
+footer .pages a {
     font-size: 20px;
-    color:black;
-    padding:10px;
+    color: black;
+    padding: 10px;
 }
-footer h3{
-    font-size:30px;
+
+footer h3 {
+    font-size: 30px;
     color: blue;
 }
-footer .pages a:hover{
+
+footer .pages a:hover {
     font-size: 20px;
-    color:orangered;
+    color: orangered;
     transition: 0.5s;
 }
-hr{
-    color:gray;
+
+hr {
+    color: gray;
 }
-footer .follow a{
+
+footer .follow a {
     font-size: 30px;
-    color:skyblue;
-    padding:10px;
+    color: skyblue;
+    padding: 10px;
 }
-footer .follow a:hover{
+
+footer .follow a:hover {
     font-size: 30px;
-    color:orangered;
+    color: orangered;
     transition: 0.5s;
 }
-footer .contact a{
+
+footer .contact a {
     font-size: 30px;
-    color:skyblue;
-    padding:10px;
+    color: skyblue;
+    padding: 10px;
 }
-footer .contact a:hover{
+
+footer .contact a:hover {
     font-size: 30px;
-    color:orangered;
+    color: orangered;
     transition: 0.5s;
 }
