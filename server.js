@@ -28,7 +28,7 @@ app.get("/app", (req, res) => {
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 app.use("/app", authRouters);
-// app.use("/startup-community/frontend", express.static(__dirname + "/frontend"));
+app.use("/startup-community/frontend", express.static(__dirname + "/frontend"));
 
 app.listen(5000, () => {
     console.log("Server running at port 5000...");

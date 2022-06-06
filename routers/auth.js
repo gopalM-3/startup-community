@@ -13,7 +13,9 @@ router.get("/users", async (req, res) => {
 });
 
 router.get("/signup", async (req, res) => {
-    res.status(200).send("Signup page");
+    res.status(200).sendFile(
+        "E:/IWT/Assignment 1/startup-community/frontend/signup.html"
+    );
     console.log("User hit the signup page");
 });
 
@@ -39,7 +41,9 @@ router.post("/signup", async (req, res) => {
 });
 
 router.get("/login", async (req, res) => {
-    res.status(200).send("Login page");
+    res.status(200).sendFile(
+        "E:/IWT/Assignment 1/startup-community/frontend/login.html"
+    );
     console.log("User hit the login page");
 });
 

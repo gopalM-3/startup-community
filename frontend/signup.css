@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(135deg, #FAB2FF 10%, #4dafff 100%);
+    background-image: linear-gradient(135deg, #fab2ff 10%, #4dafff 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,7 +12,7 @@ body {
     margin-top: 10%;
     margin-bottom: 10%;
     width: 80%;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -67,7 +67,7 @@ body {
 
 .box-form .left .overlay span a {
     background: #3b5998;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: 10px;
     padding: 14px 50px;
     border-radius: 100px;
@@ -103,7 +103,7 @@ body {
 
 .box-form .right p {
     font-size: 14px;
-    color: #B0B3B9;
+    color: #b0b3b9;
 }
 
 .box-form .right .inputs {
@@ -117,7 +117,7 @@ body {
     font-size: 16px;
     border: none;
     outline: none;
-    border-bottom: 2px solid #B0B3B9;
+    border-bottom: 2px solid #b0b3b9;
 }
 
 .box-form .right .remember-me--forget-password {
@@ -154,7 +154,7 @@ label {
 }
 
 label::before {
-    content: ' \f00c';
+    content: " \f00c";
     position: absolute;
     font-family: FontAwesome;
     background: transparent;
@@ -167,14 +167,14 @@ label::before {
 
 label:hover::before {
     font-family: FontAwesome;
-    content: ' \f00c';
+    content: " \f00c";
     color: #fff;
     cursor: pointer;
-    background: #70F570;
+    background: #70f570;
 }
 
 label:hover::before .text-checkbox {
-    background: #70F570;
+    background: #70f570;
 }
 
 label span.text-checkbox {
