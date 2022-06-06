@@ -39,7 +39,7 @@ body {
     color: #ffffff;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("https://i.pinimg.com/originals/38/6e/11/386e117f6d132a71eea3d2f688bea144.gif");
+    background-image: url("https://i.pinimg.com/originals/21/5c/7f/215c7fdca6033092baa04b35c17466bd.gif");
     overflow: hidden;
 }
 
@@ -47,7 +47,7 @@ body {
     padding: 10%;
     width: 100%;
     height: 100%;
-    background: #5961f9ad;
+    background: #000000ad;
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -197,4 +197,9 @@ label input[type="checkbox"] {
     color: red;
     text-align: left;
     margin: auto;
+}
+
+#tt {
+    font-size: 1.2em;
+    font-weight: 400;
 }

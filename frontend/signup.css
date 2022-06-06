@@ -95,7 +95,7 @@ body {
 }
 
 .box-form .right h5 {
-    font-size: 6vmax;
+    font-size: 5vmax;
     width: 490px;
     margin: auto;
     margin-bottom: 10%;
@@ -187,4 +187,9 @@ label span.text-checkbox {
 
 label input[type="checkbox"] {
     display: none;
+}
+
+#tt {
+    font-size: 1.2em;
+    font-weight: 400;
 }
