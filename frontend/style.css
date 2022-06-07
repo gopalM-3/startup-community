@@ -22,6 +22,129 @@
     font-size: 15px;
 }
 
+/*main*/
+
+h1{
+    background: linear-gradient(135deg, #e23cee 10%, #321b8f 100%);
+    font-weight: bold;
+           font-size: 30px;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+main{
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-clip: text;
+    background-color: linear-gradient(135deg, #fab2ff 10%, #4dafff 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-color: linear-gradient(135deg, #fab2ff 10%, #4dafff 100%);
+    font-size: 30px;
+}
+.dif{
+    color: linear-gradient(135deg, #fab2ff 10%, #4dafff 100%);
+}
+
+
+
+.intro{
+    background-image: linear-gradient(135deg, #ce0edc 10%, #070c53 100%);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+.intro h3{
+    background: linear-gradient(135deg, #fab2ff 10%, #4dafff 100%);
+    font-weight: bold;
+           font-size: 30px;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+@supports (background-clip: text) {
+    .intro h3{
+      background-image: linear-gradient(60deg, #E21143, #FFB03A);
+      background-clip: text;
+      color: transparent;
+    }
+  }
+.intro .features{
+    width:50%;
+    padding:10px;
+    padding-bottom: 0px;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.1);
+    height: 180px;
+    padding: 20px;
+}
+.intro .features:hover{
+    box-shadow: 0px 3px 65px 0px rgba(4, 4, 151, 0.2);
+}
+.intro .features h4{
+    font-size: 30px;
+    align-content: center;
+    color: white;
+    text-align: center;
+}
+.intro .features p{
+    font-size: 25px;
+    align-content: left;
+    color: white;
+    text-align: center;
+}
+
+
+.clients{
+    padding:50px;
+    background-color: #070c53;
+}
+.clients h2{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.clients .testi{
+    width:50%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: rgb(27, 8, 139);
+    margin-left: 25%;
+    margin-right: 10%;
+    text-transform: uppercase;
+}
+.clients .testi .item{
+    width:100%;
+    height:400px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.clients .testi .item .item_img{
+    margin-left: 30%;
+    width: 40%;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    height:250px;
+    overflow: hidden;
+}
+.clients .testi .item .item_img img{
+    width:100%;
+    height:250px;
+}
+
 /*footer*/
 footer {
     box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.2);
@@ -51,18 +174,19 @@ footer .pages {
 
 footer .pages a {
     font-size: 20px;
-    color: black;
+    color: rgb(17, 17, 130)k;
     padding: 10px;
 }
 
 footer h3 {
-    font-size: 30px;
-    color: blue;
+    font-size: 25px;
+    color: rgb(17, 17, 130);
+    text-transform: uppercase;
 }
 
 footer .pages a:hover {
     font-size: 20px;
-    color: orangered;
+    color:rgb(191, 22, 238) ;
     transition: 0.5s;
 }
 
@@ -71,25 +195,25 @@ hr {
 }
 
 footer .follow a {
-    font-size: 30px;
+    font-size: 20px;
     color: skyblue;
     padding: 10px;
 }
 
 footer .follow a:hover {
-    font-size: 30px;
-    color: orangered;
+    font-size: 20px;
+    color: rgb(17, 17, 130);
     transition: 0.5s;
 }
 
 footer .contact a {
-    font-size: 30px;
+    font-size: 20px;
     color: skyblue;
     padding: 10px;
 }
 
 footer .contact a:hover {
-    font-size: 30px;
-    color: orangered;
+    font-size: 20px;
+    color: rgb(17, 17, 130);
     transition: 0.5s;
 }
