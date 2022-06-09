@@ -2,7 +2,17 @@
     border-color: #457b9d;
     color: white;
 }
-
+header{
+    height: 200px;
+}
+nav{
+    height: 100px;
+    z-index: 9;
+    display: flex;
+}
+.container-fluid{
+    display: flex;
+}
 .btn:hover {
     background-color: #457b9d;
 }
@@ -10,6 +20,8 @@
 .loggo {
     margin-right: 5%;
     margin-bottom: 4%;
+    float: left;
+    width: 30%;
 }
 
 .nav-border {
@@ -17,22 +29,57 @@
     border-right: solid 2px gray;
     min-width: 112.93px;
 }
-
+.navbar-flex{
+    float: inline-end;
+    width: 30%;
+}
+.d-flex{
+    float: inline-end;
+    width: 20%;
+}
 .nav-links {
     font-size: 15px;
 }
 
 /*main*/
+.open{
+    display: flex;
+    height: 500px;
+}
+.open .heading{
+    float: inline-start;
+    width: 40%;
+}
+.open .front-image{
+    float: inline-end;
+    background-image: url("OIP.jpg");
+    float: left;
+    padding: 10px;
+    margin-left: 10%;
+    width: 40%;
+    margin-bottom: 40px;
+}
+.box{
+    background: linear-gradient(135deg, #fab2ff 10%, #4dafff 100%);
+    font-weight: bold;
+    color: rgb(43, 50, 152);
+    border-radius: 20px;
+    box-shadow: 0px 3px 65px 0px rgba(149, 50, 145, 0.1);
+    margin-left: 20px;
+    
+}
+
+
 
 h1{
     background: linear-gradient(135deg, #e23cee 10%, #321b8f 100%);
     font-weight: bold;
-           font-size: 30px;
+           font-size: 40px;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
 }
 main{
-    background-color: white;
+    background-color: whitesmoke;
     align-items: center;
     text-align: center;
     align-content: center;
