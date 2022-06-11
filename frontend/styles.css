@@ -41,6 +41,11 @@ nav {
 .cont-cards > h3 {
     margin-bottom: 3%;
 }
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 .about {
     padding: 6%;
