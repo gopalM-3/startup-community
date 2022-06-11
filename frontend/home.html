@@ -17,7 +17,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Startum</title>
-    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link href="/startup-community/frontend/styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -51,7 +52,7 @@
                             <a class="nav-link" href="#">About Us</a>
                         </li>
                     </ul>
-                    <form class="d-flex" action="" method="">
+                    <form class="d-flex" action="http://localhost:5000/app/login" method="get">
                         <button class="btn btn-outline-success" type="submit" style="margin-top: 1.1%;">Log Out</button>
                     </form>
                 </div>
@@ -154,7 +155,7 @@
         <div class="trending" style="margin-top: 6%;">
             <h3 style="text-align: right; color: white;">Apply Now</h3>
             <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
-                <form class="form" action="" method="">
+                <form class="form" action="http://localhost:5000/app/submitForm" method="post">
                 <input type="text" name="name" id="name" placeholder="Name">
                 <input type="email" name="email" id="email" placeholder="Email ID">
                 <div style="display: flex; flex-direction: row; align-items: baseline; justify-content: space-between; width: 50%;">

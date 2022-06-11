@@ -1,11 +1,22 @@
 const express = require("express");
 const router = express.Router();
 const User = require("../models/userSchema");
+const Form = require("../models/formSchema");
 
 router.get("/users", async (req, res) => {
     try {
         const user = await User.find();
         res.status(200).json(user);
+    } catch (err) {
+        res.send("Error");
+        console.log(err);
+    }
+});
+
+router.get("/applicants", async (req, res) => {
+    try {
+        const form = await Form.find();
+        res.status(200).json(form);
     } catch (err) {
         res.send("Error");
         console.log(err);
@@ -31,7 +42,9 @@ router.post("/signup", async (req, res) => {
 
         try {
             await user.save();
-            res.status(200).send("Signup succesful!");
+            res.status(200).sendFile(
+                "E:/IWT/Assignment 1/startup-community/frontend/home.html"
+            );
         } catch (err) {
             console.log(err);
         }
@@ -54,11 +67,33 @@ router.post("/login", async (req, res) => {
                 console.log(error);
             }
             if (req.body.password === data.password) {
-                res.status(200).send("Successfully logged in!");
+                res.status(200).sendFile(
+                    "E:/IWT/Assignment 1/startup-community/frontend/home.html"
+                );
             } else {
                 res.status(200).send("Incorrect credentials");
             }
         }).clone();
+    } catch (err) {
+        console.log(err);
+    }
+});
+
+router.post("/submitForm", async (req, res) => {
+    const form = new Form({
+        name: req.body.name,
+        email: req.body.email,
+        newsLetter: req.body.nl,
+    });
+    console.log(
+        `Name: ${form.name}, Email: ${form.email}, Newsletter: ${form.newsLetter}`
+    );
+
+    try {
+        await form.save();
+        res.status(200).send(
+            "Form submitted, your application will be processed!"
+        );
     } catch (err) {
         console.log(err);
     }
