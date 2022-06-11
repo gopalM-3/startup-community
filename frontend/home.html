@@ -37,19 +37,19 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Trending</a>
+                            <a class="nav-link" href="#trending">Trending</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Success Stories</a>
+                            <a class="nav-link" href="#cards">Success Stories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Apply Now</a>
+                            <a class="nav-link" href="#apply">Apply Now</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
                     </ul>
                     <form class="d-flex" action="http://localhost:5000/app/login" method="get">
@@ -60,7 +60,7 @@
         </nav>
     </header>
     <main>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="home" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -98,7 +98,7 @@
                 <span class="sr-only">Next</span>
             </a>
             </div>
-            <div class="trending">
+            <div class="trending" id="trending">
                 <h3 style="text-align: right; color: white;">Trending</h3>
                 <div class="trend-cont">
                     <img src="https://wallpaperaccess.com/full/54058.jpg" alt="Black Panther">
@@ -107,7 +107,7 @@
                     </div>
                 </div>
             </div>
-        <div class="cont-cards">
+        <div class="cont-cards" id="cards">
             <h3 style="color: white;">Our Success Stories</h3>
             <div class="cards">
                 <div class="card" style="width: 18rem">
@@ -152,7 +152,7 @@
                 </div>
             </div>
         </div>
-        <div class="trending" style="margin-top: 6%;">
+        <div id="apply" class="trending" style="margin-top: 6%;">
             <h3 style="text-align: right; color: white;">Apply Now</h3>
             <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
                 <form class="form" action="http://localhost:5000/app/submitForm" method="post">
@@ -167,7 +167,7 @@
                 <img src="https://wallpaperaccess.com/full/1135920.jpg" alt="Vision" style="width: 50%;">
             </div>
         </div>
-        <div class="about">
+        <div class="about" id="about">
             <h3 style="color: white;">About Us</h3>
             <div class="about-cont">
                 <img src="https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190403144228-avengers-endgame-thumb-imax-poster.jpg"
