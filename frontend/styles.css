@@ -37,10 +37,20 @@
     display: flex;
 }
 
+.head-logo {
+    border-right: 2px solid grey;
+    padding-right: 1%;
+}
+.container-fluid {
+    padding-left: 2%;
+}
 .nav-border {
     padding-right: 1%;
-    border-right: solid 2px gray;
+    border-right: solid 2px grey;
     min-width: 112.93px;
+}
+.navbar-collapse {
+    margin-top: -0.22%;
 }
 
 .cont-cards {
@@ -99,10 +109,16 @@
     color: white;
 }
 .footer-log {
-    width: 35%;
+    width: 40%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding-left: 2%;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 32%;
 }
