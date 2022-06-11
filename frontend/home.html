@@ -1,93 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Startum</title>
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap"
+            rel="stylesheet"
+        />
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Startum</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css"
-        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet" />
+        <!-- Latest compiled and minified CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+            crossorigin="anonymous"
+        />
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
-        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css"
+            integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ"
+            crossorigin="anonymous"
+        />
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css"
-        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-    <header>
-        <nav class="navbar navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand nav-border">
-                    <img class="loggo" src="https://www.svgrepo.com/show/47841/uranus.svg" alt="logo" width="auto"
-                        height="40" class="d-inline-block align-text-top" />Startum
-                </a>
-                <div class="navbar-flex">
-                    <a class="navbar-brand">Home</a>
-                    <a class="navbar-brand">News</a>
-                    <a class="navbar-brand">Contact Us</a>
+    <body>
+        <header>
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand nav-border">
+                        <img
+                            class="loggo"
+                            src="https://www.svgrepo.com/show/47841/uranus.svg"
+                            alt="logo"
+                            width="auto"
+                            height="40"
+                            class="d-inline-block align-text-top"
+                        />Startum
+                    </a>
+                    <div class="navbar-flex">
+                        <a class="navbar-brand">Home</a>
+                        <a class="navbar-brand">News</a>
+                        <a class="navbar-brand">Contact Us</a>
+                    </div>
+                    <form class="d-flex" role="search">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                        />
+                        <button class="btn btn-outline-success" type="submit">
+                            Search</button
+                        ><br />
+                    </form>
                 </div>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">
-                        Search
-                    </button><br>
-                </form>
+            </nav>
+        </header>
+        <main>
+            <div class="open">
+                <div class="heading">
+                    <h1>A Flourishing Startup Network</h1>
+                    <br />
+                    <div class="box">
+                        <p>Monitor a complete view of your organization</p>
+                    </div>
+                    <br />
+                    <div class="box">
+                        <p>Uncover trends and facts to refine your ideas</p>
+                    </div>
+                    <br />
+                    <div class="box">
+                        <p>
+                            Get connected and experience the impact of a
+                            community
+                        </p>
+                    </div>
+                    <br />
+                </div>
+                <div class="front-image"></div>
             </div>
-        </nav>
-    </header>
-    <main>
-        <div class="open">
-            <div class="heading">
-                <h1>A Flourishing Startup Network</h1><br />
-                <div class="box">
-                    <p>Monitor a complete view of your organization</p>
-                </div><br>
-                <div class="box">
-                    <p>Uncover trends and facts to refine your ideas</p>
-                </div><br>
-                <div class="box">
-                    <p>Get connected and experience the impact of a community</p>
-                </div><br>
+            <div class="intro">
+                <br />
+                <h3>
+                    Connect with a global startup network along with our
+                    Community
+                </h3>
+                <br />
+                <div class="features">
+                    <h4>Associate with our experts</h4>
+                    <p>
+                        Get expert advice at all the stages of your startup by
+                        associating with us
+                    </p>
+                </div>
+                <div class="features">
+                    <h4>Community association with start ups</h4>
+                    <p>
+                        Get associated by the community providing you a working
+                        platform
+                    </p>
+                </div>
+                <div class="features">
+                    <h4>Understanding the start up</h4>
+                    <p>
+                        So as to know the feasability, learn more about the
+                        business models
+                    </p>
+                </div>
             </div>
-            <div class="front-image">
-            </div>
-        </div>
-        <div class="intro">
-            <br>
-            <h3>Connect with a global startup network along with our Community</h3><br />
-            <div class="features">
-                <h4>Associate with our experts</h4>
-                <p>Get expert advice at all the stages of your startup by associating with us</p>
-            </div>
-            <div class="features">
-                <h4>Community association with start ups</h4>
-                <p>Get associated by the community providing you a working platform</p>
-            </div>
-            <div class="features">
-                <h4>Understanding the start up</h4>
-                <p>So as to know the feasability, learn more about the business models</p>
-            </div>
-        </div>
+        </main>
+        <br />
 
-    </main>
-    <br>
-
-    <footer>
+        <!-- <footer>
         <div class="pages">
             <a href="home.html">Home</a>
             <a href="events.html">Events and Activities</a>
@@ -109,17 +157,22 @@
         </div>
         <hr>
         <p>copyright &copy; created by the startup community. </p>
-    </footer>
-    </script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-        crossorigin="anonymous"></script>
+    </footer> -->
+        <footer class="footer">
+            <h3>Startum</h3>
+        </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script
+            src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+            crossorigin="anonymous"
+        ></script>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
-        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-        crossorigin="anonymous"></script>
-</body>
-
+        <!-- Latest compiled and minified JavaScript -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+            integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
