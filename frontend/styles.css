@@ -33,3 +33,62 @@ nav {
     border-right: solid 2px gray;
     min-width: 112.93px;
 }
+
+.cont-cards {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.cont-cards > h3 {
+    margin-bottom: 3%;
+}
+
+.about {
+    padding: 6%;
+}
+.about > h3 {
+    margin-bottom: 3%;
+}
+.about-img {
+    width: 40%;
+    display: block;
+}
+.about-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about-cont > div {
+    margin-left: 2%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.footer-in {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: right;
+    padding-right: 2%;
+}
+.footer-in > a {
+    margin: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    color: white;
+}
+.footer-log {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+}
