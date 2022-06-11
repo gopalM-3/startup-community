@@ -1,0 +1,35 @@
+.btn {
+    border-color: #457b9d;
+    color: white;
+}
+
+header {
+    height: 200px;
+}
+
+nav {
+    height: 100px;
+    z-index: 9;
+    display: flex;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.btn:hover {
+    background-color: #457b9d;
+}
+
+.loggo {
+    margin-right: 5%;
+    margin-bottom: 4%;
+    float: left;
+    width: 30%;
+}
+
+.nav-border {
+    padding-right: 1%;
+    border-right: solid 2px gray;
+    min-width: 112.93px;
+}
