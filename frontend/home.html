@@ -1,144 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Startum</title>
-        <!-- CSS only -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-            crossorigin="anonymous"
-        />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap"
-            rel="stylesheet"
-        />
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Startum</title>
-        <!-- CSS only -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-            crossorigin="anonymous"
-        />
-        <!-- JavaScript Bundle with Popper -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-            crossorigin="anonymous"
-        ></script>
-        <link rel="stylesheet" href="styles.css" />
-    </head>
 
-    <body>
-        <header>
-            <nav class="navbar navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand nav-border">
-                        <img
-                            class="loggo"
-                            src="https://www.svgrepo.com/show/47841/uranus.svg"
-                            alt="logo"
-                            width="auto"
-                            height="36"
-                            class="d-inline-block align-text-top"
-                        />
-                        Startum
-                    </a>
-                    <div class="navbar-flex">
-                        <a class="navbar-brand">Home</a>
-                        <a class="navbar-brand">News</a>
-                        <a class="navbar-brand">Apply now</a>
-                        <a class="navbar-brand">Contact Us</a>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startum</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startum</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand ">
+                    <img class="loggo" src="https://www.svgrepo.com/show/47841/uranus.svg" alt="logo" width="auto"
+                        height="36" class="d-inline-block align-text-top"> Startum
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Apply now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="cont-cards">
+            <h3>Our Success Stories</h3>
+            <div class="cards">
+                <div class="card" style="width: 18rem">
+                    <img class="card-img-top"
+                        src="https://cdn1-www.superherohype.com/assets/uploads/2013/11/18375601324_cacd540a4d_z-1.jpg"
+                        alt="Card image cap" />
+                    <div class="card-body">
+                        <h5 class="card-title">Ironman</h5>
+                        <p class="card-text">Earth's best defender.</p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
                     </div>
                 </div>
-            </nav>
-        </header>
-        <main>
-            <div class="cont-cards">
-                <h3>Our Success Stories</h3>
-                <div class="cards">
-                    <div class="card" style="width: 18rem">
-                        <img
-                            class="card-img-top"
-                            src="https://cdn1-www.superherohype.com/assets/uploads/2013/11/18375601324_cacd540a4d_z-1.jpg"
-                            alt="Card image cap"
-                        />
-                        <div class="card-body">
-                            <h5 class="card-title">Ironman</h5>
-                            <p class="card-text">Earth's best defender.</p>
-                            <a href="#" class="btn btn-primary">Learn more</a>
-                        </div>
+                <div class="card" style="width: 18rem">
+                    <img class="card-img-top"
+                        src="https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/0a823cb0-01a9-4835-a348-c64187783ccb/d37cb96c-805c-4aa2-9f2f-e62d9eb814c7/1280x720/match/image.jpg"
+                        alt="Card image cap" />
+                    <div class="card-body">
+                        <h5 class="card-title">Captain America</h5>
+                        <p class="card-text">Leader of the team.</p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
                     </div>
-                    <div class="card" style="width: 18rem">
-                        <img
-                            class="card-img-top"
-                            src="https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/0a823cb0-01a9-4835-a348-c64187783ccb/d37cb96c-805c-4aa2-9f2f-e62d9eb814c7/1280x720/match/image.jpg"
-                            alt="Card image cap"
-                        />
-                        <div class="card-body">
-                            <h5 class="card-title">Captain America</h5>
-                            <p class="card-text">Leader of the team.</p>
-                            <a href="#" class="btn btn-primary">Learn more</a>
-                        </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                    <img class="card-img-top"
+                        src="https://www.denofgeek.com/wp-content/uploads/2019/03/thor_the_dark_world-main.jpg?fit=1200%2C675"
+                        alt="Card image cap" />
+                    <div class="card-body">
+                        <h5 class="card-title">Thor</h5>
+                        <p class="card-text">The strongest avenger?</p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
                     </div>
-                    <div class="card" style="width: 18rem">
-                        <img
-                            class="card-img-top"
-                            src="https://www.denofgeek.com/wp-content/uploads/2019/03/thor_the_dark_world-main.jpg?fit=1200%2C675"
-                            alt="Card image cap"
-                        />
-                        <div class="card-body">
-                            <h5 class="card-title">Thor</h5>
-                            <p class="card-text">The strongest avenger?</p>
-                            <a href="#" class="btn btn-primary">Learn more</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem">
-                        <img
-                            class="card-img-top"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCJWplSV5Is8BQaJZ4kYN0i_H4dYuaQZXiVQ&usqp=CAU"
-                            alt="Card image cap"
-                        />
-                        <div class="card-body">
-                            <h5 class="card-title">Hulk</h5>
-                            <p class="card-text">SMASH!</p>
-                            <a href="#" class="btn btn-primary">Learn more</a>
-                        </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                    <img class="card-img-top"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCJWplSV5Is8BQaJZ4kYN0i_H4dYuaQZXiVQ&usqp=CAU"
+                        alt="Card image cap" />
+                    <div class="card-body">
+                        <h5 class="card-title">Hulk</h5>
+                        <p class="card-text">SMASH!</p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
                     </div>
                 </div>
             </div>
-            <div class="about">
-                <h3>About Us</h3>
-                <div class="about-cont">
-                    <img
-                        src="https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190403144228-avengers-endgame-thumb-imax-poster.jpg"
-                        alt="Team"
-                        class="about-img"
-                    />
-                    <div>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Facere nihil et libero, dicta, debitis sed
-                            mollitia exercitationem cupiditate praesentium
-                            ratione temporibus illo! Quis libero explicabo
-                            assumenda eum hic consequatur quidem.
-                        </p>
-                    </div>
+        </div>
+        <div class="about">
+            <h3>About Us</h3>
+            <div class="about-cont">
+                <img src="https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190403144228-avengers-endgame-thumb-imax-poster.jpg"
+                    alt="Team" class="about-img" />
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Facere nihil et libero, dicta, debitis sed
+                        mollitia exercitationem cupiditate praesentium
+                        ratione temporibus illo! Quis libero explicabo
+                        assumenda eum hic consequatur quidem.
+                    </p>
                 </div>
             </div>
-            <!-- <div class="open">
+        </div>
+        <!-- <div class="open">
                 <div class="heading">
                     <h1>A Flourishing Startup Network</h1>
                     <br />
@@ -206,7 +192,7 @@
                 </p>
             </div>
         </div> -->
-            <!-- <div class="clients">
+        <!-- <div class="clients">
             <h2>Our clients</h2>
             <div class="testi">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -256,8 +242,8 @@
                 </div>
             </div>
         </div> -->
-        </main>
-        <!-- <footer>
+    </main>
+    <!-- <footer>
         <div class="pages">
             <a href="home.html">Home</a>
             <a href="events.html">Events and Activities</a>
@@ -280,31 +266,27 @@
         <hr>
         <p>copyright &copy; created by the startup community. </p>
     </footer> -->
-        <footer class="footer">
-            <div class="footer-log">
-                <h3>Startum</h3>
-                <small>© Copyright 2022 Startum. All Rights Reserved.</small>
-            </div>
-            <div class="footer-in">
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Subscribe</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">T&Cs</a>
-                <a href="" target="_black"
-                    ><i class="fa fa-facebook" aria-hidden="true"></i
-                ></a>
-                <a href=""
-                    ><i class="fa fa-instagram" aria-hidden="true"></i
-                ></a>
-                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
-        </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script
-            src="https://code.jquery.com/jquery-1.12.4.min.js"
-            integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-            crossorigin="anonymous"
-        ></script>
+    <footer class="footer">
+        <div class="footer-log">
+            <img class="loggo" src="https://www.svgrepo.com/show/47841/uranus.svg" alt="logo" width="auto" height="38"
+                class="d-inline-block align-text-top">
+            <h3>Startum</h3>
+            <small>© Copyright 2022 Startum. All Rights Reserved.</small>
+        </div>
+        <div class="footer-in">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Subscribe</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">T&Cs</a>
+            <a href="" target="_black"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
 
 </html>
