@@ -1,10 +1,19 @@
-.btn {
-    border-color: #457b9d;
-    color: white;
+body {
+    background-color: rgb(101, 134, 236);
 }
 
+.btn {
+    border-color: rgb(101, 134, 236);
+    color: white;
+}
+.card-body > .btn {
+    background-color: white;
+    color: rgb(101, 134, 236);
+}
 .btn:hover {
-    background-color: #457b9d;
+    border-color: rgb(72, 84, 100);
+    background-color: rgb(101, 134, 236);
+    color: white;
 }
 
 .land {
@@ -38,7 +47,7 @@
 }
 
 .head-logo {
-    border-right: 2px solid grey;
+    border-right: 2px solid rgb(101, 134, 236);
     padding-right: 1%;
 }
 .container-fluid {
@@ -67,7 +76,9 @@
 }
 
 .about {
-    padding: 6%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-bottom: 6%;
     margin-left: 4%;
     margin-right: 4%;
 }
@@ -75,7 +86,7 @@
     margin-bottom: 3%;
 }
 .about-img {
-    width: 40%;
+    width: 50%;
     display: block;
 }
 .about-cont {
@@ -91,7 +102,7 @@
     display: flex;
     flex-direction: row;
     color: white;
-    background-color: black;
+    background-color: rgb(72, 84, 100);
     justify-content: space-between;
 }
 
@@ -123,4 +134,75 @@
     flex-direction: row;
     justify-content: space-around;
     width: 32%;
+}
+
+.d-block {
+    margin-left: 17.3%;
+    margin-right: 17.3%;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.carousel-caption {
+    top: 69%;
+}
+
+.trending {
+    margin-bottom: 6%;
+    background-color: rgb(72, 84, 100);
+    padding: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.trend-cont > img {
+    width: 50%;
+}
+.trend-cont > div {
+    margin-left: 2%;
+    color: white;
+}
+.trending > h3 {
+    margin-bottom: 3%;
+}
+.trend-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.form > input {
+    width: 100%;
+    margin: 2%;
+    padding: 1%;
+    padding-left: 2%;
+    border-radius: 10px;
+    border: 0px;
+    background-color: white;
+    color: rgb(72, 84, 100);
+}
+.form > button {
+    width: 40%;
+    background-color: white;
+    color: rgb(72, 84, 100);
+    border-radius: 10px;
+    border: 0px;
+    padding: 2%;
+    margin: 2%;
+    font-size: larger;
+}
+.form > button:hover {
+    background-color: rgb(101, 134, 236);
+    color: rgb(72, 84, 100);
 }
