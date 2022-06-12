@@ -9,7 +9,8 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet" />
@@ -52,15 +53,8 @@
                             <a class="nav-link" href="#about">About Us</a>
                         </li>
                     </ul>
-<<<<<<< HEAD
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
-                            style="margin-top: 1.1%;">
-                        <button class="btn btn-outline-success" type="submit" style="margin-top: 1.1%;">Search</button>
-=======
                     <form class="d-flex" action="http://localhost:5000/app/login" method="get">
                         <button class="btn btn-outline-success" type="submit" style="margin-top: 1.1%;">Log Out</button>
->>>>>>> 6007ae4d659230a64451f20f41803661633cf14b
                     </form>
                 </div>
             </div>
@@ -75,26 +69,31 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img class="d-block" src="https://www.xtrafondos.com/en/descargar.php?id=8312&resolucion=5120x2768" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Loki</h5>
-                    <p>Burdened with glorious purpose.</p>
+                    <img class="d-block" src="https://www.xtrafondos.com/en/descargar.php?id=8312&resolucion=5120x2768"
+                        alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Loki</h5>
+                        <p>Burdened with glorious purpose.</p>
+                    </div>
                 </div>
-            </div>
                 <div class="carousel-item">
-                <img class="d-block" src="https://www.xtrafondos.com/wallpapers/wanda-zombie-que-pasaria-si-9000.jpg" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Wanda</h5>
-                    <p>Hot as fuck.</p>
+                    <img class="d-block"
+                        src="https://www.xtrafondos.com/wallpapers/wanda-zombie-que-pasaria-si-9000.jpg"
+                        alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Wanda</h5>
+                        <p>Hot as fuck.</p>
+                    </div>
                 </div>
-            </div>
                 <div class="carousel-item">
-                <img class="d-block" src="https://www.xtrafondos.com/wallpapers/resoluciones/21/doctor-strange-suprime_2560x1440_9005.jpg" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Dr. Strange</h5>
-                    <p>The Sorcerer Supreme.</p>
+                    <img class="d-block"
+                        src="https://www.xtrafondos.com/wallpapers/resoluciones/21/doctor-strange-suprime_2560x1440_9005.jpg"
+                        alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Dr. Strange</h5>
+                        <p>The Sorcerer Supreme.</p>
+                    </div>
                 </div>
-            </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -104,16 +103,17 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-            </div>
-            <div class="trending" id="trending">
-                <h3 style="text-align: right; color: white;">Trending</h3>
-                <div class="trend-cont">
-                    <img src="https://wallpaperaccess.com/full/54058.jpg" alt="Black Panther">
-                    <div>
-                        <p>After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation.</p>
-                    </div>
+        </div>
+        <div class="trending" id="trending">
+            <h3 style="text-align: right; color: white;">Trending</h3>
+            <div class="trend-cont">
+                <img src="https://wallpaperaccess.com/full/54058.jpg" alt="Black Panther">
+                <div>
+                    <p>After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a
+                        powerful enemy related to his family threatens to attack his nation.</p>
                 </div>
             </div>
+        </div>
         <div class="cont-cards" id="cards">
             <h3 style="color: white;">Our Success Stories</h3>
             <div class="cards">
@@ -163,13 +163,14 @@
             <h3 style="text-align: right; color: white;">Apply Now</h3>
             <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
                 <form class="form" action="http://localhost:5000/app/submitForm" method="post">
-                <input type="text" name="name" id="name" placeholder="Name">
-                <input type="email" name="email" id="email" placeholder="Email ID">
-                <div style="display: flex; flex-direction: row; align-items: baseline; justify-content: space-between; width: 50%;">
-                    <input type="checkbox" id="nl" name="nl" value="yes">
-                    <label for="nl" style="color: white;">Subscribe to newsletter</label>
-                </div>
-                <button>Submit</button>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="email" name="email" id="email" placeholder="Email ID">
+                    <div
+                        style="display: flex; flex-direction: row; align-items: baseline; justify-content: space-between; width: 50%;">
+                        <input type="checkbox" id="nl" name="nl" value="yes">
+                        <label for="nl" style="color: white;">Subscribe to newsletter</label>
+                    </div>
+                    <button>Submit</button>
                 </form>
                 <img src="https://wallpaperaccess.com/full/1135920.jpg" alt="Vision" style="width: 50%;">
             </div>
@@ -352,7 +353,14 @@
             <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 </html>
