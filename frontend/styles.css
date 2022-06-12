@@ -145,11 +145,17 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 37%;
 }
 
 .carousel-caption {
     top: 69%;
+    background-color: rgba(61, 110, 221, 255);
+    border-radius: 20px;
+    padding: 2%;
+}
+.carousel-item {
+    height: 480px;
 }
 
 .trending {
@@ -158,9 +164,11 @@ body {
     padding: 6%;
     margin-left: 4%;
     margin-right: 4%;
+    border-radius: 20px;
 }
 .trend-cont > img {
     width: 50%;
+    border-radius: 10px;
 }
 .trend-cont > div {
     margin-left: 2%;
