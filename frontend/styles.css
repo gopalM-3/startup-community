@@ -200,6 +200,16 @@ body {
     background-color: white;
     color: rgb(72, 84, 100);
 }
+.form > textarea {
+    width: 100%;
+    margin: 2%;
+    padding: 1%;
+    padding-left: 2%;
+    border-radius: 10px;
+    border: 0px;
+    background-color: white;
+    color: rgb(72, 84, 100);
+}
 .form > button {
     width: 40%;
     background-color: white;
@@ -213,4 +223,9 @@ body {
 .form > button:hover {
     background-color: rgb(101, 134, 236);
     color: rgb(72, 84, 100);
+}
+.bg {
+    background: url("https://webartdevelopers.com/blog/wp-content/uploads/2019/02/Pure-CSS-Animated-Background.gif");
+    border-radius: 20px;
+    padding: 3%;
 }

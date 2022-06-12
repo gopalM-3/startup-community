@@ -18,8 +18,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Startum</title>
-    <link rel="stylesheet" href="styles.css" />
-    <!-- <link href="/startup-community/frontend/styles.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link href="/startup-community/frontend/styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -72,29 +72,29 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block" src="https://www.xtrafondos.com/en/descargar.php?id=8312&resolucion=5120x2768"
+                    <img class="d-block" src="https://storage.googleapis.com/realtyplusmag-news-photo/news-photo/106493.app.jpg"
                         alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Loki</h5>
-                        <p>Burdened with glorious purpose.</p>
+                        <h5>Aliste Technologies</h5>
+                        <p>Founded in 2021, Aliste Technologies’ primary focus is to reduce energy consumption through its smart appliances.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block"
-                        src="https://www.xtrafondos.com/wallpapers/wanda-zombie-que-pasaria-si-9000.jpg"
+                        src="https://www.conversionx.com/wp-content/uploads/2020/02/Purplle-logo.png"
                         alt="Second slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Wanda</h5>
-                        <p>Hot as fuck.</p>
+                        <h5>Purplle</h5>
+                        <p>Goldman-backed beauty startup Purplle becomes India's newest unicorn.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block"
-                        src="https://www.xtrafondos.com/wallpapers/resoluciones/21/doctor-strange-suprime_2560x1440_9005.jpg"
+                        src="https://images.indianexpress.com/2022/06/doctor-759-4-1.jpg"
                         alt="Third slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Dr. Strange</h5>
-                        <p>The Sorcerer Supreme.</p>
+                        <h5>RT-PCR based testing</h5>
+                        <p>At biotech startup event, typhoid RT-PCR, cataract detection via WhatsApp.</p>
                     </div>
                 </div>
             </div>
@@ -110,10 +110,13 @@
         <div class="trending" id="trending">
             <h3 style="text-align: right; color: white;">Trending</h3>
             <div class="trend-cont">
-                <img src="https://wallpaperaccess.com/full/54058.jpg" alt="Black Panther">
+                <img src="https://img.jagranjosh.com/images/2022/June/962022/pm_modi_inaugurates_Biotech_Startup_Expo_2022_theme.webp" alt="Black Panther">
                 <div>
-                    <p>After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a
-                        powerful enemy related to his family threatens to attack his nation.</p>
+                    <p>
+                        Biotech Startup Expo 2022: Prime Minister Narendra Modi inaugurated the Biotech Startup Expo - 2022 at Pragati Maidan, New Delhi on June 9, 2022. PM Modi stated that the country's first Biotech Startup Expo is a reflection of the expansive growth of the biotech sector in the country.<br>
+                        Prime Minister Narendra Modi attended the Startup Expo- 2022 along with Union Ministers Dr Jitendra Singh, Piyush Goyal and Dharmendra Pradhan.<br><br>
+                        The Biotech Startup Expo 2022 was a two-day event held on June 9 and 10. The expo was organised by the Department of Biotechnology and Biotechnology Industry Research Assistance Council (BIRAC).
+                    </p>
                 </div>
             </div>
         </div>
@@ -179,18 +182,20 @@
                     alt="Join Us" style="width: 50%; border-radius: 10px;">
             </div>
         </div>
-        <div class="about" id="reach">
+        <div class="about bg" id="reach" style="display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;">
             <h3 style="color: white;">Reach Us</h3>
-            <p style="color: white;">
+            <p style="color: white; text-align: center;">
                 Have any questions? Want to get in touch and get some in-depth info?<br>Feel free to contact us by
-                clicking the below button.
+                using the form below.
             </p>
-            <label for="question">Enter your question:</label>
-            <input type="text" name="question" id="question">
-            <label for="email">Enter your email:</label>
-            <input type="email" name="email" id="email">
-            <textarea name="" id="" cols="60" rows="10" placeholder="elaborate if you'd like to"></textarea>
-
+            <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; width: 80%;">
+                <form class="form" action="http://localhost:5000/app/submitQA" method="post">
+                    <input type="text" name="question" id="question" placeholder="Your question">
+                    <input type="email" name="qemail" id="qemail" placeholder="Email ID">
+                    <textarea name="details" id="details" cols="30" rows="2" placeholder="Elaborate if you'd like to..."></textarea>
+                    <button>Submit</button>
+                </form>
+            </div>
         </div>
         <div class="trending" id="about">
             <h3 style="color: white; text-align: right;">About Us</h3>
