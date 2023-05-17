@@ -36,7 +36,7 @@ router.get("/qa", async (req, res) => {
 
 router.get("/signup", async (req, res) => {
     res.status(200).sendFile(
-        "E:/IWT/Assignment 1/startup-community/frontend/signup.html"
+        "E:/Web dev/startup-community/frontend/signup.html"
     );
     console.log("User hit the signup page");
 });
@@ -54,7 +54,7 @@ router.post("/signup", async (req, res) => {
         try {
             await user.save();
             res.status(200).sendFile(
-                "E:/IWT/Assignment 1/startup-community/frontend/home.html"
+                "E:/Web dev/startup-community/frontend/home.html"
             );
         } catch (err) {
             console.log(err);
@@ -66,7 +66,7 @@ router.post("/signup", async (req, res) => {
 
 router.get("/login", async (req, res) => {
     res.status(200).sendFile(
-        "E:/IWT/Assignment 1/startup-community/frontend/login.html"
+        "E:/Web dev/startup-community/frontend/login.html"
     );
     console.log("User hit the login page");
 });
@@ -79,7 +79,7 @@ router.post("/login", async (req, res) => {
             }
             if (req.body.password === data.password) {
                 res.status(200).sendFile(
-                    "E:/IWT/Assignment 1/startup-community/frontend/home.html"
+                    "E:/Web dev/startup-community/frontend/home.html"
                 );
             } else {
                 res.status(200).send("Incorrect credentials");

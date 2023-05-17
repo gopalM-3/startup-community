@@ -21,7 +21,7 @@ const app = express();
 
 app.get("/app", (req, res) => {
     res.status(200).sendFile(
-        "E:/IWT/Assignment 1/startup-community/frontend/login.html"
+        "E:/Web dev/startup-community/frontend/login.html"
     );
 });
 
